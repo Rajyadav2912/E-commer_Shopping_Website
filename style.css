@@ -165,7 +165,7 @@ body {
 
 /* Home Page */
 #hero {
-  background-image: url("./home/hero4.png");
+  background-image: url("./Images/home/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -185,7 +185,7 @@ body {
 }
 
 #hero button {
-  background-image: url("./home/button.png");
+  background-image: url("./Images/home/button.png");
   background-color: transparent;
   color: #088178;
   border: 0;
@@ -342,7 +342,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("./banner/b2.jpg");
+  background-image: url("./Images/banner/b2.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -383,7 +383,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   /* text-align: center; */
-  background-image: url("./banner/b17.jpg");
+  background-image: url("./Images/banner/b17.jpg");
   min-width: 660px;
   height: 50vh;
   background-size: cover;
@@ -392,7 +392,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url("./banner/b10.jpg");
+  background-image: url("./Images/banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -432,7 +432,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   /* text-align: center; */
-  background-image: url("./banner/b7.jpg");
+  background-image: url("./Images/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -442,10 +442,10 @@ body {
 }
 
 #banner3 .banner-box2 {
-  background-image: url("./banner/b4.jpg");
+  background-image: url("./Images/banner/b4.jpg");
 }
 #banner3 .banner-box3 {
-  background-image: url("./banner/b18.jpg");
+  background-image: url("./Images/banner/b18.jpg");
 }
 
 #banner3 h2 {
@@ -465,7 +465,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("./banner/b14.png");
+  background-image: url("./Images/banner/b14.png");
   background-repeat: repeat;
   background-position: 20% 30%;
   background-color: #041e42;
@@ -591,7 +591,7 @@ footer .copyright p {
 /* Shop Page  */
 
 #page-header {
-  background-image: url("./banner/b1.jpg");
+  background-image: url("./Images/banner/b1.jpg");
   width: 100%;
   height: 42vh;
   background-size: cover;
@@ -691,7 +691,7 @@ footer .copyright p {
 /* blog page  */
 
 #page-header.blog-header {
-  background-image: url("./banner/b19.jpg");
+  background-image: url("./Images/banner/b19.jpg");
 }
 
 #blog {
@@ -761,7 +761,7 @@ footer .copyright p {
 /* About page  */
 
 #page-header.about-header {
-  background-image: url("./about/banner.png");
+  background-image: url("./Images/about/banner.png");
 }
 
 #about-head {
@@ -1092,13 +1092,20 @@ footer .copyright p {
   }
 
   #hero {
-    height: 70vh;
-    padding: 0 80px;
-    background-position: top 30% right 30%;
+    height: 65vh;
+    padding: 0 100px;
+    background-position: top 40% right 40%;
   }
 
   #feature {
     justify-content: center;
+  }
+
+  #feature .box {
+    margin-right: 0;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   #feature .fe-box {
@@ -1331,11 +1338,22 @@ footer .copyright p {
     flex-direction: column;
   }
 
-  #coupon {
-    width: 100%;
+  #cart-add #coupon h3,
+  #cart-add #subtotal h3 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
   }
 
-  #subtotal {
+  #cart-add #coupon div input {
+    width: 195%;
+  }
+
+  #cart-add #coupon div button,
+  #cart-add #subtotal button {
+    margin-top: 15px;
+  }
+
+  #cart-add #subtotal {
     width: 100%;
     padding: 20px;
   }
