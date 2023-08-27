@@ -808,6 +808,10 @@ footer .copyright p {
 
 /* Contact details */
 
+#page-header.about-header {
+  background-image: url("./Images/about/banner.png");
+}
+
 #contact-details {
   display: flex;
   align-items: center;
